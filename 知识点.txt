@@ -2,3 +2,11 @@
 使用var让编译器自动确定数据类型
 可以直接用转义字符\u+Unicode编码来表示一个字符
 int[] ns = new int[5];
+println是print line的缩写，表示输出并换行。因此，如果输出后不想换行，可以用print()
+格式化输出使用System.out.printf()，通过使用占位符%?，printf()可以把后面的参数格式化成指定格式
+利用差值小于某个临界值来判断浮点数是否相等
+==表示“引用是否相等”而不是数值内容是否相等
+s1.equals(s2)判断变量数值是否相等。。前者不可为null，可用s1 != null && s1.equals("hello")优化
+新内容For each循环   语句体： for(元素类型t 元素变量x : 遍历对象obj)    {     引用了x的java语句;     } 直接遍历数组a：   for（int i：a）{······}
+for each循环中前者变量再遍历时是变量的元素本身而非索引***
+System.out.println(Arrays.deepToString(ns))函数Arrays.deepToString()用于得到多维数组的所有值
