@@ -10,3 +10,4 @@ s1.equals(s2)判断变量数值是否相等。。前者不可为null，可用s1 
 新内容For each循环   语句体： for(元素类型t 元素变量x : 遍历对象obj)    {     引用了x的java语句;     } 直接遍历数组a：   for（int i：a）{······}
 for each循环中前者变量再遍历时是变量的元素本身而非索引***
 System.out.println(Arrays.deepToString(ns))函数Arrays.deepToString()用于得到多维数组的所有值
+析构函数于对象生命期结束时被调用
